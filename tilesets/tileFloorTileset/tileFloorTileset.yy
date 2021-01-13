@@ -1,4 +1,5 @@
 {
+  "name": "tileFloorTileset",
   "spriteId": {
     "name": "sprFloorTileset",
     "path": "sprites/sprFloorTileset/sprFloorTileset.yy",
@@ -39,7 +40,6 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "tileFloorTileset",
   "tags": [],
   "resourceType": "GMTileSet",
 }
