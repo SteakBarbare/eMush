@@ -12,7 +12,7 @@ for(var tileX = 0; tileX < MAP_W; tileX++)
 		tileIndex = tileData[TILE.SPRITE];
 		tileZ = tileData[TILE.Z];
 		
-		if(tileIndex !=0)
+		if(tileIndex != 0)
 		{
 			draw_sprite(sprShipTile, (tileIndex - 1), roomX, roomY + tileZ);
 		}
