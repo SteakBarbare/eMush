@@ -1,4 +1,4 @@
-// @desc Render Isometric Map
+/// @desc Render Isometric Map
 var tileData, roomX, roomY, tileIndex, tileZ;
 
 for(var tileX = 0; tileX < MAP_W; tileX++)
