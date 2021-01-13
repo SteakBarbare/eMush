@@ -4,15 +4,15 @@
 /// @param  {boolean}	isXCoordinate		Check which value to return
 /// @description							Take tiles coordinate and return isometric coordinates depending on a boolean
 
-function srcTileToScreenX(){
+function srcTileToScreen(){
 	var tileX = argument0;
 	var tileY = argument1;
 	var isXCoordinate = argument2;
 
 	if(isXCoordinate){
-		return((tileX - tileY) * (TILE_W * 0.5));
+		return((tileX - tileY) * (TILE_W * 0.5)) + ROOM_W/2;
 	}else{
-		return((tileX + tileY) * (TILE_H * 0.5));
+		return((tileX + tileY) * (TILE_H * 0.5)) + ROOM_H/4;
 	}
 }
 

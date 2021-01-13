@@ -1,5 +1,5 @@
 /// @desc Map Building
-
+c = 0
 layer_set_visible("RoomLayer", false);
 
 global.shipRoom = ds_grid_create(MAP_W, MAP_H);
