@@ -13,8 +13,12 @@ for(var tileX = 0; tileX < MAP_W; tileX++)
 		var tileMapData = tilemap_get(tileMap, tileX, tileY);
 		//tileMapData = tile_get_index(tileMapData);
 		
-		// Iformation of the tile, index 0 is the sprite index, and index 1 is the Z level of the tile, -1 is the default value of a tile ID
+		// Information of the tile, index 0 is the sprite index, and index 1 is the Z level of the tile, -1 is the default value of a tile ID
 		var thisTile = [-1, 0];
+		thisTile[TILE.SPRITE] = tileMapData;
+		thisTile[TILE.Z] = 0;
+		
+		global.shipRoom[# tileX, tileY] = thisTile;
 	}
 }
 
