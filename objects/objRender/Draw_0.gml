@@ -14,7 +14,7 @@ for(var tileX = 0; tileX < MAP_W; tileX++)
 		
 		if(tileIndex !=0)
 		{
-			
+			draw_sprite(sprShipTile, (tileIndex - 1), roomX, roomY + tileZ);
 		}
 	}
 }
