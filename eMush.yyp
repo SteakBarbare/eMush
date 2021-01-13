@@ -2,7 +2,7 @@
   "resources": [
     {"id":{"name":"sprShipTransition","path":"sprites/sprShipTransition/sprShipTransition.yy",},"order":1,},
     {"id":{"name":"sprSpaceBackground","path":"sprites/sprSpaceBackground/sprSpaceBackground.yy",},"order":2,},
-    {"id":{"name":"tFloorTileset","path":"tilesets/tFloorTileset/tFloorTileset.yy",},"order":0,},
+    {"id":{"name":"tileFloorTileset","path":"tilesets/tileFloorTileset/tileFloorTileset.yy",},"order":0,},
     {"id":{"name":"sprShipFloorMiddle","path":"sprites/sprShipFloorMiddle/sprShipFloorMiddle.yy",},"order":0,},
     {"id":{"name":"sprFloorTileset","path":"sprites/sprFloorTileset/sprFloorTileset.yy",},"order":3,},
     {"id":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},"order":0,},
