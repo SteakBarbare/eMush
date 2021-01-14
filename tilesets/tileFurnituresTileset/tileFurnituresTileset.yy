@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprFloorTileset",
-    "path": "sprites/sprFloorTileset/sprFloorTileset.yy",
+    "name": "sprFurnituresTileset",
+    "path": "sprites/sprFurnituresTileset/sprFurnituresTileset.yy",
   },
   "tileWidth": 32,
   "tileHeight": 32,
@@ -39,7 +39,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "tileFloorTileset",
+  "name": "tileFurnituresTileset",
   "tags": [],
   "resourceType": "GMTileSet",
 }
