@@ -18,7 +18,7 @@ for(var tileX = 0; tileX < MAP_W; tileX++)
 			draw_sprite(sprShipTile, floorTileIndex - 1, roomX, roomY + floorTileZ);
 		}
 		
-		if((srcRoomToTile(mouse_x, mouse_y, true) == tileX) && (srcRoomToTile(mouse_x, mouse_y) == tileY))
+		if((srcRoomToTile(mouse_x, mouse_y, true) == tileX) && (srcRoomToTile(mouse_x, mouse_y, false) == tileY))
 		{
 			draw_sprite(sprTileSelection, 0, roomX, roomY + floorTileZ);
 		}

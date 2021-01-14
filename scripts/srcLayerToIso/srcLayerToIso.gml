@@ -6,7 +6,11 @@
 
 function srcLayerToIso()
 {
-	var layerMap = layer_tilemap_get_id(argument0);
+	var currentLayer, currentGrid;
+	currentLayer = argument[0];
+	currentGrid = argument[1];
+	
+	var layerMap = layer_tilemap_get_id(currentLayer);
 	for(var tileX = 0; tileX < MAP_W; tileX++)
 	{
 		for(var tileY = 0; tileY < MAP_H; tileY++)
@@ -17,7 +21,7 @@ function srcLayerToIso()
 			thisTile[TILE.SPRITE] = layerMapData;
 			thisTile[TILE.Z] = 0;
 		
-			argument1[# tileX, tileY] = thisTile;
+			currentGrid[# tileX, tileY] = thisTile;
 		}
 	}
 }
