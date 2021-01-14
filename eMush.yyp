@@ -1,6 +1,16 @@
 {
   "resources": [
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"sprShipTransition","path":"sprites/sprShipTransition/sprShipTransition.yy",},"order":1,},
+    {"id":{"name":"srcMacros","path":"scripts/srcMacros/srcMacros.yy",},"order":0,},
+    {"id":{"name":"sprShipTile","path":"sprites/sprShipTile/sprShipTile.yy",},"order":4,},
+    {"id":{"name":"sprSpaceBackground","path":"sprites/sprSpaceBackground/sprSpaceBackground.yy",},"order":2,},
+    {"id":{"name":"tileFloorTileset","path":"tilesets/tileFloorTileset/tileFloorTileset.yy",},"order":0,},
+    {"id":{"name":"objRender","path":"objects/objRender/objRender.yy",},"order":0,},
+    {"id":{"name":"srcTileToRoom","path":"scripts/srcTileToRoom/srcTileToRoom.yy",},"order":1,},
+    {"id":{"name":"sprFloorTileset","path":"sprites/sprFloorTileset/sprFloorTileset.yy",},"order":3,},
+    {"id":{"name":"srcRoomToTile","path":"scripts/srcRoomToTile/srcRoomToTile.yy",},"order":2,},
+    {"id":{"name":"sprTileSelection","path":"sprites/sprTileSelection/sprTileSelection.yy",},"order":5,},
+    {"id":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},"order":0,},
   ],
   "Options": [
     {"name":"HTML5","path":"options/html5/options_html5.yy",},
@@ -17,7 +27,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
