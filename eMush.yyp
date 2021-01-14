@@ -8,6 +8,7 @@
     {"id":{"name":"objRender","path":"objects/objRender/objRender.yy",},"order":0,},
     {"id":{"name":"srcTileToScreen","path":"scripts/srcTileToScreen/srcTileToScreen.yy",},"order":1,},
     {"id":{"name":"sprFloorTileset","path":"sprites/sprFloorTileset/sprFloorTileset.yy",},"order":3,},
+    {"id":{"name":"sprTileSelection","path":"sprites/sprTileSelection/sprTileSelection.yy",},"order":5,},
     {"id":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},"order":0,},
   ],
   "Options": [
