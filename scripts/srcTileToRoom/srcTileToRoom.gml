@@ -5,9 +5,9 @@
 /// @description							Take tiles coordinate and return isometric coordinates depending on a boolean
 
 function srcTileToRoom(){
-	var tileX = argument0;
-	var tileY = argument1;
-	var isXCoordinate = argument2;
+	var tileX = argument[0];
+	var tileY = argument[1];
+	var isXCoordinate = argument[2];
 
 	if(isXCoordinate){
 		return((tileX - tileY) * (TILE_W * 0.5)) + ROOM_W/2;
