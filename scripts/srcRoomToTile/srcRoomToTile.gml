@@ -7,9 +7,9 @@
 function srcRoomToTile()
 {
 	var roomX, roomY, isXCoordinate;
-	roomX = argument0 - (ROOM_W * 0.5);
-	roomY = argument1 - (ROOM_H * 0.25);
-	isXCoordinate = argument2;
+	roomX = argument[0] - (ROOM_W * 0.5);
+	roomY = argument[1] - (ROOM_H * 0.25);
+	isXCoordinate = argument[2];
 	
 	if(isXCoordinate)
 	{
