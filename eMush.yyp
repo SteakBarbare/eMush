@@ -6,8 +6,9 @@
     {"id":{"name":"sprSpaceBackground","path":"sprites/sprSpaceBackground/sprSpaceBackground.yy",},"order":2,},
     {"id":{"name":"tileFloorTileset","path":"tilesets/tileFloorTileset/tileFloorTileset.yy",},"order":0,},
     {"id":{"name":"objRender","path":"objects/objRender/objRender.yy",},"order":0,},
-    {"id":{"name":"srcTileToScreen","path":"scripts/srcTileToScreen/srcTileToScreen.yy",},"order":1,},
+    {"id":{"name":"srcTileToRoom","path":"scripts/srcTileToRoom/srcTileToRoom.yy",},"order":1,},
     {"id":{"name":"sprFloorTileset","path":"sprites/sprFloorTileset/sprFloorTileset.yy",},"order":3,},
+    {"id":{"name":"srcRoomToTile","path":"scripts/srcRoomToTile/srcRoomToTile.yy",},"order":2,},
     {"id":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},"order":0,},
   ],
   "Options": [
