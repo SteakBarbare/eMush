@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1ef58ec6-4545-490c-ac79-5ad704e5de86","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Tiles",
+    "path": "folders/Sprites/Tiles.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprFloorTileset",

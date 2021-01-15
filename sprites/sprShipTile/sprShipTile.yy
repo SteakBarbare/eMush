@@ -80,8 +80,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e5a9bc11-f55a-49bc-b3f3-010149bbe62f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Tiles",
+    "path": "folders/Sprites/Tiles.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprShipTile",
