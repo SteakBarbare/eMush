@@ -1,7 +1,7 @@
 {
   "resources": [
     {"id":{"name":"sprShipTransition","path":"sprites/sprShipTransition/sprShipTransition.yy",},"order":1,},
-    {"id":{"name":"sprFurnituresTileset","path":"sprites/sprFurnituresTileset/sprFurnituresTileset.yy",},"order":9,},
+    {"id":{"name":"sprWallTileset","path":"sprites/sprWallTileset/sprWallTileset.yy",},"order":9,},
     {"id":{"name":"srcMacros","path":"scripts/srcMacros/srcMacros.yy",},"order":0,},
     {"id":{"name":"sprShipTile","path":"sprites/sprShipTile/sprShipTile.yy",},"order":4,},
     {"id":{"name":"objBed","path":"objects/objBed/objBed.yy",},"order":0,},
@@ -13,7 +13,7 @@
     {"id":{"name":"srcTileToRoom","path":"scripts/srcTileToRoom/srcTileToRoom.yy",},"order":1,},
     {"id":{"name":"sprFloorTileset","path":"sprites/sprFloorTileset/sprFloorTileset.yy",},"order":3,},
     {"id":{"name":"sprFurnituresBed","path":"sprites/sprFurnituresBed/sprFurnituresBed.yy",},"order":0,},
-    {"id":{"name":"tileFurnituresTileset","path":"tilesets/tileFurnituresTileset/tileFurnituresTileset.yy",},"order":1,},
+    {"id":{"name":"tileWallTileset","path":"tilesets/tileWallTileset/tileWallTileset.yy",},"order":1,},
     {"id":{"name":"objCharacter","path":"objects/objCharacter/objCharacter.yy",},"order":3,},
     {"id":{"name":"objFurnitureTemplate","path":"objects/objFurnitureTemplate/objFurnitureTemplate.yy",},"order":0,},
     {"id":{"name":"srcRoomToTile","path":"scripts/srcRoomToTile/srcRoomToTile.yy",},"order":2,},
